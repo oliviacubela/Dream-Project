@@ -26,7 +26,7 @@ gem 'devise', '~> 4.7', '>= 4.7.3'
 
 gem 'optimist', '~> 3.0', '>= 3.0.1'
 # gem 'yarn', '~> 0.1.1'
-
+gem 'omniauth-github', '~> 1.4'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

@@ -14,7 +14,7 @@ class RegistrationsContoller < Devise::RegistrationsContoller
     params.require(:user).permit( :name,
                                   :email,
                                   :password,
-                                  :password_confirmation
+                                  :password_confirmation,
                                   :current_password)
   end
 end

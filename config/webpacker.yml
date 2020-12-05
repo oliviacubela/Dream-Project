@@ -2,3 +2,15 @@ development:
   dev_server:
       host: localhost
       port: 3000
+
+# development:
+#   <<: *default
+#   compile: true
+
+# test:
+#   <<: *default
+#   compile: true
+
+#not sure if above commented code is needed or not? 
+#when not included, error about webpacker.yml not being configured correctly -> when you go to get /users/sign_in
+#when included, get a 'site cannot be reached' error

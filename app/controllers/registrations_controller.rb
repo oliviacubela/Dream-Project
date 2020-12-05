@@ -1,4 +1,4 @@
-class RegistrationsContoller < Devise::RegistrationsContoller 
+class RegistrationsController < Devise::RegistrationsController 
   #this method overwrites the sign_up and account_update params shipped with devise to accept the name attribute that we added to the migration user table 
 
   private 
